@@ -25,4 +25,16 @@ location / {
     }
  ...
  ```
-6.
+6. Изменить `docker-compose.yml` указав папку build вместо html
+
+```
+...
+nginx:
+    image: nginx
+    volumes:
+     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+     - ./nginx/conf.d:/etc/nginx/conf.d:ro
+     - ./nginx/build:/usr/share/nginx/build:ro
+...
+```
+
