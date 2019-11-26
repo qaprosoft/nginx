@@ -32,8 +32,7 @@ location / {
 nginx:
     image: nginx
     volumes:
-     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-     - ./nginx/conf.d:/etc/nginx/conf.d:ro
+...
      - ./nginx/build:/usr/share/nginx/build:ro
 ...
 ```
