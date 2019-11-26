@@ -18,4 +18,4 @@ location / {
     location = /50x.html {
         root   /usr/share/nginx/build;
     }
-    ```
+ ```
