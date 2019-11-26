@@ -11,8 +11,8 @@
 ```location / {
         root   /usr/share/nginx/build;
         index  index.html index.htm;
-    }```
+    }
     
-    ```location = /50x.html {
+    location = /50x.html {
         root   /usr/share/nginx/build;
     }```
