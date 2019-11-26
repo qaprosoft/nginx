@@ -1,0 +1,130 @@
+.updates-detail__wrapper {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 140, 140, 0.5);
+}
+
+.updates-detail__content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    transition: all 1s;
+    z-index: 10;
+    overflow: auto;
+    padding: 0 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 44px rgba(41, 22, 138, 0.12);
+    border-radius: 16px 0;
+}
+
+.updates-detail__content__close {
+    height: 64px;
+    align-items: center;
+}
+
+.updates-detail__content__close-item {
+    color: #29168A;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.updates-detail__content__line {
+    border: 1px solid #D9E3EB;
+    margin: 0 -35px;
+}
+
+.updates-detail__content__title {
+    padding: 32px 0;
+}
+
+.updates-detail__content__title__heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.15px;
+    color: #29168A;
+}
+
+.updates-detail__content__title__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.15px;
+    color: #29168A;
+}
+
+.updates-detail__content__button {
+    margin-bottom: 32px;
+    background: rgba(41, 22, 138, 0.04);
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    padding: 13px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #29168A;
+    cursor: pointer;
+}
+
+.updates-detail__content__list {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #29168A;
+}
+
+.updates-detail__content__list._margin {
+    margin-bottom: 64px;
+}
+
+.updates-detail__content__list._heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.updates-detail__content__list._text {
+    font-size: 18px;
+}
+
+.updates-detail__content__list-box {
+    margin-left: -15px;
+}
+
+.updates-detail__content__line-short {
+    width: 95px;
+    border: 1px solid #D9E3EB;
+    margin-left: -15px;
+}
+
+
+
+
+.circle {
+    margin: auto 3px auto -10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FF6F00;
+    background-color: #FF6F00;
+}

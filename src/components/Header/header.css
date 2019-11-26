@@ -1,0 +1,33 @@
+.header {
+    background-color: #29168A;
+    height: 90px;
+    position: relative;
+    display: flex;
+}
+
+.header-content {
+    align-items: center;
+    height: 100%;
+}
+
+.header__logo-qps {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+
+.header__title {
+    display: flex;
+    margin: auto;
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.qps {
+    color: #70BFFE;
+}

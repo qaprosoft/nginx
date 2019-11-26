@@ -1,0 +1,8 @@
+.container-main-section {
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.row {
+    /* justify-content: space-between; */
+}
