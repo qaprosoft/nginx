@@ -6,7 +6,7 @@
 2. Проверить работоспособность можна запустив с помощью команды `npm start` (в браузере открыть localhost:3000);
 3. Делаем билд `npm run build` -- появиться папка build;
 ### Далее инструкция уже связана с [https://github.com/qaprosoft/qps-infra](https://github.com/qaprosoft/qps-infra)
-4. В папке nginx заменить папку html на папку build c реакт проекта;
+4. В папке nginx заменить папку `html на папку build` c реакт проекта;
 5. В папке nginx/conf.d изменить файлы `default.conf.original` `default.conf` указав `путь к папке build вместо папки html`
 
 ```
