@@ -10,14 +10,19 @@
 5. В папке nginx/conf.d изменить файлы `default.conf.original` `default.conf` указав `путь к папке build вместо папки html`
 
 ```
+...
 location / {
         root   /usr/share/nginx/build;
         index  index.html index.htm;
     }  
+ ...
  ```
  
  ```
+ ...
     location = /50x.html {
         root   /usr/share/nginx/build;
     }
+ ...
  ```
+6.
