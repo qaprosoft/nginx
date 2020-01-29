@@ -6,14 +6,11 @@ import telegram from '../../../images/telegram.svg';
 import web from '../../../images/web.svg';
 import product_logo from '../../../images/product_logo.svg';
 
-const Card = (props) => (
+const Card = () => (
     <Col className="col-card" xs={6} md={3}>
         {/* <div className="card-border" > */}
             <div className="card">
                 <Row className="card-top">
-                    <Col>
-                        <div onClick={() => props.openDetail()} className="card-top__btn-updates" data-count="" >Updates</div>
-                    </Col>
                     <Col>
                         <img className="card-top__social" src={github} alt="" />
                         <img className="card-top__social" src={telegram} alt="" />

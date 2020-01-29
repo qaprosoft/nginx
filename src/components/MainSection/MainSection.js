@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Card from './Card';
 import './main-section.css';
@@ -6,9 +6,10 @@ import UpdatesDetail from './UpdatesDetail';
 import NewsDetail from './UpdatesDetail/NewsDetail';
 
 
-
 const MainSection = () => {
+
     const [isDetailOpened, setDetailOpened] = useState(false)
+    
     return (
         <Container className="container-main-section">
             <Row className="row">
