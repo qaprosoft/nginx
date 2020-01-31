@@ -1,17 +1,28 @@
 import React from 'react';
 import './header.css';
 import { Container, Row } from 'react-bootstrap';
-import logo_qps from '../../images/logo_qps.svg';
+import qps_logo from '../../images/qps_logo.svg';
 import UpdatesDetail from '../MainSection/UpdatesDetail/UpdatesDetail';
+
+import notification_icon from '../../images/notification_icon.svg';
+
 
 const Header = (props) => {
     return (
         <header className="header">
             <Container>
                 <Row className="header-content">
-                    <img className="header__logo-qps" src={logo_qps} alt="" />
+                    <img className="header__logo-qps" src={qps_logo} alt="" />
                     <pre className="header__title">Welcome to <span className="qps"><b>QPS</b>INFRA</span></pre>
-                    <span className="header__notification" role="img" onClick={props.openNotifications} >&#128276;</span>
+                    <div className="header__notification"  >
+                        <img 
+                            src={notification_icon}
+                            onClick={props.openNotifications}
+                            alt=""
+                        />
+                        <span className="badge">2</span>
+                    </div>
+
                 </Row>
             </Container>
         </header>

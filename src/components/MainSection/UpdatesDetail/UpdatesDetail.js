@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './updates-detail.css';
 import { Row, Col } from 'react-bootstrap';
-import updates_detail_logo from '../../../images/updates_detail_logo.svg';
+import sonar_logo from '../../../images/sonar_logo.svg';
 import PopUp from './PopUp';
 
 
@@ -19,7 +19,7 @@ const UpdatesDetail = (props) => {
         <PopUp close={props.close}>
             <Row className="updates-detail__content__title">
                 <Col xs={2}>
-                    <img src={updates_detail_logo} alt="" />
+                    <img src={sonar_logo} alt="" />
                 </Col>
                 <Col>
                     <h2 className="updates-detail__content__title__heading">Sonar Updates</h2>

@@ -4,11 +4,11 @@ import { Row, Col } from 'react-bootstrap';
 import github from '../../../images/github.svg';
 import telegram from '../../../images/telegram.svg';
 import web from '../../../images/web.svg';
-import product_logo from '../../../images/product_logo.svg';
 
-const Card = () => (
-    <Col className="col-card" xs={6} md={3}>
-        {/* <div className="card-border" > */}
+const Card = (props) => {
+    return (
+        <Col className="col-card" xs={6} md={3}>
+            {/* <div className="card-border" > */}
             <div className="card">
                 <Row className="card-top">
                     <Col>
@@ -17,17 +17,17 @@ const Card = () => (
                         <img className="card-top__social" src={web} alt="" />
                     </Col>
                 </Row>
-                <Row  className="card-bottom">
+                <Row className="card-bottom">
                     <Col xs={4} >
-                        <img className="product-logo" src={product_logo} alt="" />
+                        <img className="product-logo" src={props.logo} alt="" />
                     </Col >
                     <Col className="product-box-title">
-                        <p className="product-title">Jenkins</p>
+                        <p className="product-title">{props.name}</p>
                     </Col>
                 </Row>
-            {/* </div> */}
-        </div>
-    </Col>
-)
-
+                {/* </div> */}
+            </div>
+        </Col>
+    )
+}
 export default Card;
